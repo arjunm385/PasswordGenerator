@@ -1,9 +1,10 @@
 package com.example.password.service;
 
 import com.example.password.model.Model;
+import com.example.password.model.Response;
 
 public interface Service {
 	
-	public String getPass(Model pass);
+	public Response getPass(Model pass);
 	
 }

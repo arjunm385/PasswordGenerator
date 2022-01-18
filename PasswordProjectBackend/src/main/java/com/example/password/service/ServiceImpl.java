@@ -4,12 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.password.model.Model;
+import com.example.password.model.Response;
 
 @org.springframework.stereotype.Service
 public class ServiceImpl implements Service {
 
 	@Override
-	public String getPass(Model pass) {
+	public Response getPass(Model pass) {
 
 		int size = pass.getDigit() + pass.getLowerCase() + pass.getSpecialChar() + pass.getUpperCase();
 
@@ -65,8 +66,8 @@ public class ServiceImpl implements Service {
 				}
 			}
 		}
-
-		return sb.toString();
+		
+		return new Response(sb.toString());
 	}
 
 }

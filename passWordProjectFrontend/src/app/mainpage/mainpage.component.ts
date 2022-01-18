@@ -33,12 +33,11 @@ export class MainpageComponent implements OnInit {
     else{
       this.service.getPassword(this.password).subscribe(
         (response:any)=>{
-          console.log(response);
-          this.value=response;
+          this.value=response.res;
           this.status=true;
         },
-        error=>{
-          alert("Invalid Credentials")
+        (error)=>{
+          alert("invalid input")
         }
       )
     }
