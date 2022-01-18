@@ -2124,3 +2124,15 @@ java.lang.NullPointerException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 00:41:42.660
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QXhKbJOf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 00:41:43.017
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.QXhKbJOf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 00:41:43.031
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-19 00:41:43.039
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.QXhKbJOf => OK
