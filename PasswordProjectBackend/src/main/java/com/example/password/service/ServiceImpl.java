@@ -33,7 +33,7 @@ public class ServiceImpl implements Service {
 					spcl = (int) ((Math.random() * (4 - 0)) + 0);
 
 					if (spcl == 0)
-						sb.append((char) (int) ((Math.random() * (48 - 32)) + 32));
+						sb.append((char) (int) ((Math.random() * (48 - 33)) + 33));
 					else if (spcl == 1)
 						sb.append((char) (int) ((Math.random() * (65 - 58)) + 58));
 					else if (spcl == 2)
