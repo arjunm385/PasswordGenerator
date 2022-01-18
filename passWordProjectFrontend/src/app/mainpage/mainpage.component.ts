@@ -37,7 +37,7 @@ export class MainpageComponent implements OnInit {
           this.status=true;
         },
         (error)=>{
-          alert("invalid input")
+          alert("invalid input...(every field shoulb be in range of 0-10 only)")
         }
       )
     }
