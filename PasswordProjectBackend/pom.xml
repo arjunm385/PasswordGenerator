@@ -49,6 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>password-generater</finalName>
 	</build>
 
 </project>
