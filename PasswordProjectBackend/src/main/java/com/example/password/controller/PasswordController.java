@@ -1,5 +1,4 @@
 package com.example.password.controller;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -21,7 +20,7 @@ public class PasswordController {
 	@Autowired
 	Service service;
 	
-	@GetMapping
+	@GetMapping("/greet")
 	public String greet() {
 		return "hello user";
 	}
