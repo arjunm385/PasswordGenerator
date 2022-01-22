@@ -7,7 +7,6 @@ import { BackendCallService } from '../backend-call.service';
   styleUrls: ['./mainpage.component.css']
 })
 export class MainpageComponent implements OnInit {
-
   password={
     digit:'',
     specialChar:'',
@@ -18,10 +17,7 @@ export class MainpageComponent implements OnInit {
   status=false;
 
   constructor(private service:BackendCallService) { }
-
-  ngOnInit(): void {
-  }
-  check=false;
+check=false;
   onSubmit(){
 
     this.check=(this.password.digit=='' || this.password.digit=='0') && (this.password.lowerCase=='' || this.password.lowerCase=='0') && (this.password.specialChar=='' || this.password.specialChar=='0') && (this.password.upperCase=='' || this.password.upperCase=='0');
@@ -42,6 +38,8 @@ export class MainpageComponent implements OnInit {
       )
     }
 
+  }
+  ngOnInit(): void {
   }
 
 }

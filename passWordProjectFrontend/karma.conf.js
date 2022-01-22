@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/pass-word-project-frontend'),
+      dir: require('path').join(__dirname, './coverage/passgen'),
       subdir: '.',
       reporters: [
         { type: 'html' },
